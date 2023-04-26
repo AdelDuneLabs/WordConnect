@@ -1,0 +1,15 @@
+{
+  "name": "com.rotatelab.multiple-screenshot-capture",
+  "displayName": "Multiple Screenshot Capturer",
+  "version": "0.0.1",
+  "unity": "2020.3",
+  "unityRelease": "37f1",
+  "description": "This is a package that contains screenshot capture tool",
+  "category": "Editor",
+  "author": {
+    "name": "Rotatelab",
+    "email": "info@rotatelab.com",
+    "url": "https://rotatelab.com/"
+  },
+  "type": "tool"
+}

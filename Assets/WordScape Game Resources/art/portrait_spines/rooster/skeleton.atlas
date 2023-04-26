@@ -1,0 +1,117 @@
+skeleton.png
+size:1024,512
+filter:Linear,Linear
+scale:0.5
+Base/background
+bounds:342,27,119,120
+offsets:4,4,128,128
+Base/beak_bottom
+bounds:276,9,14,11
+offsets:1,0,15,11
+Base/beak_top
+bounds:133,115,19,12
+offsets:0,1,19,13
+Base/beard
+bounds:250,56,26,23
+Base/eye_base
+bounds:240,45,11,6
+Base/eye_close
+bounds:253,47,10,7
+offsets:1,1,12,8
+Base/eyebrows
+bounds:188,45,24,6
+Base/face
+bounds:192,5,33,38
+Base/face feathers
+bounds:216,155,28,20
+Base/hair
+bounds:174,114,12,13
+Base/hat_feathers
+bounds:133,129,81,46
+Base/iris
+bounds:276,2,6,5
+Base/left arm
+bounds:106,6,41,36
+Base/left hand
+bounds:188,53,29,26
+Base/lute
+bounds:2,44,91,63
+offsets:0,1,91,64
+Base/note_1
+bounds:281,330,119,179
+Base/note_2
+bounds:587,206,47,144
+Base/note_4
+bounds:584,32,48,157
+Base/note_5
+bounds:2,310,129,199
+Base/note_6
+bounds:499,351,86,158
+Base/note_7
+bounds:133,344,146,165
+Base/note_8
+bounds:402,344,95,165
+Base/right arm
+bounds:2,7,50,35
+Base/right hand
+bounds:246,155,26,20
+Base/torso
+bounds:278,58,62,60
+offsets:0,1,62,61
+Transparent/background
+bounds:463,55,119,120
+offsets:1,0,120,120
+Transparent/beak_bottom
+bounds:271,120,14,11
+offsets:1,0,15,11
+Transparent/beak_top
+bounds:154,115,18,12
+offsets:1,1,19,13
+Transparent/beard
+bounds:262,22,26,23
+Transparent/eye_base
+bounds:277,48,11,6
+Transparent/eye_close
+bounds:265,47,10,7
+offsets:1,1,12,8
+Transparent/eyebrows
+bounds:214,45,24,6
+Transparent/face
+bounds:227,5,33,38
+Transparent/face feathers
+bounds:216,133,28,20
+Transparent/hair
+bounds:262,7,12,13
+offsets:26,0,38,13
+Transparent/hat_feathers
+bounds:188,81,81,46
+Transparent/iris
+bounds:284,2,6,5
+Transparent/left arm
+bounds:149,6,41,36
+Transparent/left hand
+bounds:219,53,29,26
+Transparent/lute
+bounds:95,44,91,63
+offsets:0,1,91,64
+Transparent/note_1
+bounds:281,149,119,179
+Transparent/note_2
+bounds:634,60,47,144
+Transparent/note_4
+bounds:587,352,48,157
+Transparent/note_5
+bounds:2,109,129,199
+Transparent/note_6
+bounds:499,191,86,158
+Transparent/note_7
+bounds:133,177,146,165
+Transparent/note_8
+bounds:402,177,95,165
+Transparent/right arm
+bounds:54,7,50,35
+Transparent/right hand
+bounds:246,133,26,20
+Transparent/torso
+bounds:636,290,62,60
+offsets:0,1,62,61

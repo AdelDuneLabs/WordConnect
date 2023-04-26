@@ -1,0 +1,189 @@
+{"frames": [
+
+{
+	"filename": "crown_fall2_3_100",
+	"frame": {"x":146,"y":92,"w":70,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":30,"w":70,"h":42},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_fall2_5_100",
+	"frame": {"x":0,"y":275,"w":64,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":33,"w":64,"h":42},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_fall2_6_100",
+	"frame": {"x":0,"y":180,"w":65,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":29,"w":65,"h":46},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_fall2_7_100",
+	"frame": {"x":130,"y":276,"w":64,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":33,"w":64,"h":42},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_fall2_8_100",
+	"frame": {"x":0,"y":227,"w":64,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":28,"w":64,"h":47},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_spring3_3_100",
+	"frame": {"x":197,"y":229,"w":59,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":43,"w":59,"h":32},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_spring3_6_100",
+	"frame": {"x":132,"y":229,"w":64,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":29,"w":64,"h":46},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_spring3_9_100",
+	"frame": {"x":0,"y":133,"w":69,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":29,"w":69,"h":46},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_spring3_10_100",
+	"frame": {"x":75,"y":86,"w":70,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":32,"w":70,"h":43},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_spring3_11_100",
+	"frame": {"x":76,"y":0,"w":74,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":28,"w":74,"h":47},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_spring4_1_100",
+	"frame": {"x":0,"y":0,"w":75,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":55,"w":75,"h":41},
+	"sourceSize": {"w":100,"h":100}
+},
+{
+	"filename": "crown_summer2_5_100",
+	"frame": {"x":66,"y":212,"w":65,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":32,"w":65,"h":43},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_summer2_6_100",
+	"frame": {"x":137,"y":182,"w":65,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":29,"w":65,"h":46},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_summer2_7_100",
+	"frame": {"x":65,"y":256,"w":64,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":32,"w":64,"h":43},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_summer2_8_100",
+	"frame": {"x":142,"y":135,"w":66,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":29,"w":66,"h":46},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_summer3_6_100",
+	"frame": {"x":151,"y":44,"w":73,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":28,"w":73,"h":47},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_summer3_7_100",
+	"frame": {"x":0,"y":89,"w":70,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":32,"w":70,"h":43},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_summer3_10_100",
+	"frame": {"x":0,"y":42,"w":74,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":29,"w":74,"h":46},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_winter2_3_100",
+	"frame": {"x":75,"y":48,"w":72,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":33,"w":72,"h":37},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_winter2_6_100",
+	"frame": {"x":70,"y":173,"w":66,"h":38},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":37,"w":66,"h":38},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_winter2_9_100",
+	"frame": {"x":71,"y":130,"w":70,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":33,"w":70,"h":42},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "crown_winter_4_100",
+	"frame": {"x":151,"y":0,"w":74,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":57,"w":74,"h":43},
+	"sourceSize": {"w":100,"h":100}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "crowns3.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":512},
+	"scale": "1",
+	"related_multi_packs": [ "crowns1.json", "crowns2.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:326240b67fb6a06c55472fe956c06583:bd7b5cb673794c4d8fdfbabb4a5d7f13:478bfc9509ec7bf32c5f38f704f51d66$"
+}
+}

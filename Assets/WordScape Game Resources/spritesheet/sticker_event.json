@@ -1,0 +1,276 @@
+{"frames": [
+
+{
+	"filename": "prizebox_rays",
+	"frame": {"x":1910,"y":268,"w":128,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":77},
+	"sourceSize": {"w":128,"h":77}
+},
+{
+	"filename": "prizebox_rays2",
+	"frame": {"x":1824,"y":403,"w":128,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":77},
+	"sourceSize": {"w":128,"h":77}
+},
+{
+	"filename": "sticker_banner_base",
+	"frame": {"x":2,"y":810,"w":506,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":506,"h":79},
+	"sourceSize": {"w":512,"h":85}
+},
+{
+	"filename": "sticker_banner_bonus",
+	"frame": {"x":1824,"y":485,"w":128,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":62},
+	"sourceSize": {"w":128,"h":62}
+},
+{
+	"filename": "sticker_banner_count",
+	"frame": {"x":1800,"y":785,"w":128,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":62},
+	"sourceSize": {"w":128,"h":62}
+},
+{
+	"filename": "sticker_banner_overlay",
+	"frame": {"x":513,"y":810,"w":502,"h":68},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":0,"w":502,"h":68},
+	"sourceSize": {"w":512,"h":85}
+},
+{
+	"filename": "sticker_bonus_fill",
+	"frame": {"x":2010,"y":510,"w":30,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":30,"h":30},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "sticker_bonus_fillbar",
+	"frame": {"x":2010,"y":473,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "sticker_bonus_icon",
+	"frame": {"x":1933,"y":785,"w":108,"h":108},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":10,"w":108,"h":108},
+	"sourceSize": {"w":128,"h":128}
+},
+{
+	"filename": "sticker_bonus_icon2",
+	"frame": {"x":1910,"y":2,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+{
+	"filename": "sticker_bonus_icon3",
+	"frame": {"x":1910,"y":135,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+{
+	"filename": "sticker_bonus_icon3_big",
+	"frame": {"x":1553,"y":549,"w":242,"h":256},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":242,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+{
+	"filename": "sticker_event_cta_border",
+	"frame": {"x":1957,"y":403,"w":65,"h":65},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":65},
+	"sourceSize": {"w":65,"h":65}
+},
+{
+	"filename": "sticker_navbar_texture_adventure",
+	"frame": {"x":2,"y":2,"w":512,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":192},
+	"sourceSize": {"w":512,"h":192}
+},
+{
+	"filename": "sticker_navbar_texture_arctic",
+	"frame": {"x":519,"y":2,"w":512,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":192},
+	"sourceSize": {"w":512,"h":192}
+},
+{
+	"filename": "sticker_navbar_texture_christmas",
+	"frame": {"x":1036,"y":2,"w":512,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":192},
+	"sourceSize": {"w":512,"h":192}
+},
+{
+	"filename": "sticker_navbar_texture_climb",
+	"frame": {"x":2,"y":199,"w":512,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":192},
+	"sourceSize": {"w":512,"h":192}
+},
+{
+	"filename": "sticker_navbar_texture_dino",
+	"frame": {"x":519,"y":199,"w":512,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":192},
+	"sourceSize": {"w":512,"h":192}
+},
+{
+	"filename": "sticker_navbar_texture_fairytale",
+	"frame": {"x":1036,"y":199,"w":512,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":192},
+	"sourceSize": {"w":512,"h":192}
+},
+{
+	"filename": "sticker_navbar_texture_forest",
+	"frame": {"x":2,"y":396,"w":512,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":192},
+	"sourceSize": {"w":512,"h":192}
+},
+{
+	"filename": "sticker_navbar_texture_furryfriends",
+	"frame": {"x":519,"y":396,"w":512,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":192},
+	"sourceSize": {"w":512,"h":192}
+},
+{
+	"filename": "sticker_navbar_texture_halloween",
+	"frame": {"x":1036,"y":396,"w":512,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":192},
+	"sourceSize": {"w":512,"h":192}
+},
+{
+	"filename": "sticker_navbar_texture_marine",
+	"frame": {"x":2,"y":898,"w":512,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":192},
+	"sourceSize": {"w":512,"h":192}
+},
+{
+	"filename": "sticker_navbar_texture_meadow",
+	"frame": {"x":1020,"y":593,"w":512,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":192},
+	"sourceSize": {"w":512,"h":192}
+},
+{
+	"filename": "sticker_navbar_texture_myth",
+	"frame": {"x":1020,"y":790,"w":512,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":192},
+	"sourceSize": {"w":512,"h":192}
+},
+{
+	"filename": "sticker_navbar_texture_safari",
+	"frame": {"x":2,"y":593,"w":512,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":192},
+	"sourceSize": {"w":512,"h":192}
+},
+{
+	"filename": "sticker_navbar_texture_stargazing",
+	"frame": {"x":2,"y":1095,"w":512,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":192},
+	"sourceSize": {"w":512,"h":192}
+},
+{
+	"filename": "sticker_navbar_texture_zen",
+	"frame": {"x":2,"y":1292,"w":512,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":192},
+	"sourceSize": {"w":512,"h":192}
+},
+{
+	"filename": "sticker_spinner/frame",
+	"frame": {"x":1800,"y":552,"w":226,"h":228},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":14,"w":226,"h":228},
+	"sourceSize": {"w":256,"h":256}
+},
+{
+	"filename": "sticker_spinner/icon_sparkle",
+	"frame": {"x":1957,"y":473,"w":48,"h":59},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":174,"y":99,"w":48,"h":59},
+	"sourceSize": {"w":256,"h":256}
+},
+{
+	"filename": "stickers/prizebox_anim/gacha_reveal_glow",
+	"frame": {"x":1553,"y":342,"w":266,"h":202},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":266,"h":202},
+	"sourceSize": {"w":266,"h":202}
+},
+{
+	"filename": "stickers/prizebox_anim/gacha_shadow",
+	"frame": {"x":1824,"y":350,"w":218,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":218,"h":48},
+	"sourceSize": {"w":218,"h":48}
+},
+{
+	"filename": "stickers/prizebox_anim/rays",
+	"frame": {"x":1553,"y":2,"w":352,"h":335},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":352,"h":335},
+	"sourceSize": {"w":352,"h":335}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sticker_event.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8785a4cd071ac57cc3fcfe7318bce72f:678c6dd3e6e19711eda28c00c0cec304:35ebc39bbf6c25672a49d67b41f1bec8$"
+}
+}

@@ -1,0 +1,204 @@
+{"frames": [
+
+{
+	"filename": "arrow_dropdown_collapse",
+	"frame": {"x":246,"y":81,"w":53,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":26},
+	"sourceSize": {"w":53,"h":26}
+},
+{
+	"filename": "arrow_dropdown_expand",
+	"frame": {"x":246,"y":108,"w":53,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":26},
+	"sourceSize": {"w":53,"h":26}
+},
+{
+	"filename": "button_cta",
+	"frame": {"x":133,"y":171,"w":108,"h":108},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":10,"w":108,"h":108},
+	"sourceSize": {"w":128,"h":128}
+},
+{
+	"filename": "button_cta2",
+	"frame": {"x":0,"y":208,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+{
+	"filename": "sticker_banner_setcomplete",
+	"frame": {"x":0,"y":0,"w":300,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":80},
+	"sourceSize": {"w":300,"h":80}
+},
+{
+	"filename": "sticker_collection_header",
+	"frame": {"x":193,"y":409,"w":128,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":103},
+	"sourceSize": {"w":128,"h":103}
+},
+{
+	"filename": "sticker_collection_panel",
+	"frame": {"x":0,"y":337,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+{
+	"filename": "sticker_collection_panel3",
+	"frame": {"x":129,"y":280,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+{
+	"filename": "sticker_spinner/collection/bar_bg",
+	"frame": {"x":246,"y":164,"w":132,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":36},
+	"sourceSize": {"w":132,"h":36}
+},
+{
+	"filename": "sticker_spinner/collection/check",
+	"frame": {"x":465,"y":0,"w":30,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":24},
+	"sourceSize": {"w":30,"h":24}
+},
+{
+	"filename": "sticker_spinner/collection/collection_bg",
+	"frame": {"x":242,"y":201,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "sticker_spinner/collection/collection_bg_top",
+	"frame": {"x":258,"y":266,"w":128,"h":127},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":103,"w":128,"h":127},
+	"sourceSize": {"w":128,"h":230}
+},
+{
+	"filename": "sticker_spinner/collection/collection_outline",
+	"frame": {"x":307,"y":201,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "sticker_spinner/collection/completed",
+	"frame": {"x":379,"y":164,"w":132,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":36},
+	"sourceSize": {"w":132,"h":36}
+},
+{
+	"filename": "sticker_spinner/collection/container_bg",
+	"frame": {"x":372,"y":201,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "sticker_spinner/collection/container_top",
+	"frame": {"x":0,"y":466,"w":64,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":35},
+	"sourceSize": {"w":64,"h":35}
+},
+{
+	"filename": "sticker_spinner/collection/full_bar",
+	"frame": {"x":65,"y":466,"w":127,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":127,"h":32},
+	"sourceSize": {"w":132,"h":36}
+},
+{
+	"filename": "sticker_spinner/collection/outline",
+	"frame": {"x":387,"y":266,"w":124,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":28,"w":124,"h":124},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "sticker_spinner/collection/select",
+	"frame": {"x":301,"y":0,"w":163,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":9,"w":163,"h":163},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "sticker_spinner/collection/selected",
+	"frame": {"x":0,"y":171,"w":132,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":36},
+	"sourceSize": {"w":132,"h":36}
+},
+{
+	"filename": "sticker_status_fill",
+	"frame": {"x":387,"y":391,"w":64,"h":24},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":64,"h":24},
+	"sourceSize": {"w":66,"h":26}
+},
+{
+	"filename": "sticker_status_fillbar",
+	"frame": {"x":437,"y":201,"w":66,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":26},
+	"sourceSize": {"w":66,"h":26}
+},
+{
+	"filename": "sticker_status_inuse",
+	"frame": {"x":437,"y":228,"w":66,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":26},
+	"sourceSize": {"w":66,"h":26}
+},
+{
+	"filename": "stickers_popup_newcontent",
+	"frame": {"x":0,"y":81,"w":245,"h":89},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":245,"h":89},
+	"sourceSize": {"w":245,"h":89}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "stickers1.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:7902632533fd48a1274d28ecdc409035:26b20a964dcee332752f2f3b27be2e67:8b49d72f899d6b57a61d16f6bdcc2b01$"
+}
+}

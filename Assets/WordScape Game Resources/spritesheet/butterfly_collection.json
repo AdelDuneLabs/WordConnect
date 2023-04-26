@@ -1,0 +1,388 @@
+{"frames": [
+
+{
+	"filename": "butterfly_cocoon_anim/break",
+	"frame": {"x":1413,"y":1,"w":282,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":400},
+	"sourceSize": {"w":282,"h":400}
+},
+{
+	"filename": "butterfly_cocoon_anim/cocoon",
+	"frame": {"x":1697,"y":1,"w":271,"h":353},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":271,"h":353},
+	"sourceSize": {"w":286,"h":357}
+},
+{
+	"filename": "butterfly_cocoon_anim/cocoon1",
+	"frame": {"x":1697,"y":356,"w":264,"h":399},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":264,"h":399},
+	"sourceSize": {"w":264,"h":399}
+},
+{
+	"filename": "butterfly_cocoon_anim/cocoon2",
+	"frame": {"x":1413,"y":403,"w":264,"h":399},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":264,"h":399},
+	"sourceSize": {"w":264,"h":399}
+},
+{
+	"filename": "butterfly_cocoon_anim/cocoon3",
+	"frame": {"x":1,"y":1273,"w":264,"h":399},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":264,"h":399},
+	"sourceSize": {"w":264,"h":399}
+},
+{
+	"filename": "butterfly_cocoon_anim/cocoon_branch",
+	"frame": {"x":1,"y":1,"w":769,"h":277},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":13,"w":769,"h":277},
+	"sourceSize": {"w":769,"h":295}
+},
+{
+	"filename": "butterfly_cocoon_anim/darken",
+	"frame": {"x":2013,"y":130,"w":32,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":64},
+	"sourceSize": {"w":32,"h":64}
+},
+{
+	"filename": "butterfly_cocoon_anim/flare",
+	"frame": {"x":642,"y":280,"w":128,"h":155},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":155},
+	"sourceSize": {"w":128,"h":155}
+},
+{
+	"filename": "butterfly_cocoon_anim/hold/ray",
+	"frame": {"x":192,"y":1932,"w":189,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":53},
+	"sourceSize": {"w":189,"h":53}
+},
+{
+	"filename": "butterfly_cocoon_anim/ray",
+	"frame": {"x":1,"y":1932,"w":189,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":62},
+	"sourceSize": {"w":189,"h":62}
+},
+{
+	"filename": "butterfly_cocoon_anim/stem1",
+	"frame": {"x":1970,"y":340,"w":36,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":67},
+	"sourceSize": {"w":36,"h":67}
+},
+{
+	"filename": "butterfly_cocoon_anim/stem2",
+	"frame": {"x":2013,"y":230,"w":16,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":53},
+	"sourceSize": {"w":16,"h":53}
+},
+{
+	"filename": "butterfly_cocoon_anim/stem_green1",
+	"frame": {"x":2008,"y":340,"w":36,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":67},
+	"sourceSize": {"w":36,"h":67}
+},
+{
+	"filename": "butterfly_cocoon_anim/stem_green2",
+	"frame": {"x":2031,"y":230,"w":16,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":53},
+	"sourceSize": {"w":16,"h":53}
+},
+{
+	"filename": "butterfly_cocoon_anim/stem_orange1",
+	"frame": {"x":1963,"y":409,"w":36,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":67},
+	"sourceSize": {"w":36,"h":67}
+},
+{
+	"filename": "butterfly_cocoon_anim/stem_orange2",
+	"frame": {"x":2013,"y":285,"w":16,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":53},
+	"sourceSize": {"w":16,"h":53}
+},
+{
+	"filename": "butterfly_collection/butterfly_collection_card1",
+	"frame": {"x":267,"y":1273,"w":166,"h":249},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":7,"w":166,"h":249},
+	"sourceSize": {"w":174,"h":256}
+},
+{
+	"filename": "butterfly_collection/butterfly_collection_card2",
+	"frame": {"x":435,"y":1273,"w":166,"h":249},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":7,"w":166,"h":249},
+	"sourceSize": {"w":174,"h":256}
+},
+{
+	"filename": "butterfly_collection/butterfly_collection_card3",
+	"frame": {"x":435,"y":1670,"w":166,"h":249},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":7,"w":166,"h":249},
+	"sourceSize": {"w":174,"h":256}
+},
+{
+	"filename": "butterfly_collection/butterfly_collection_card3_2",
+	"frame": {"x":259,"y":1674,"w":174,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":174,"h":256},
+	"sourceSize": {"w":174,"h":256}
+},
+{
+	"filename": "butterfly_collection/butterfly_collection_namebox",
+	"frame": {"x":1970,"y":1,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "butterfly_collection/butterfly_collection_star",
+	"frame": {"x":1970,"y":67,"w":64,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":61},
+	"sourceSize": {"w":64,"h":61}
+},
+{
+	"filename": "butterfly_collection/button_collection",
+	"frame": {"x":642,"y":567,"w":123,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":10,"w":123,"h":123},
+	"sourceSize": {"w":144,"h":144}
+},
+{
+	"filename": "butterfly_collection/button_collection2",
+	"frame": {"x":267,"y":1524,"w":144,"h":144},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":144,"h":144},
+	"sourceSize": {"w":144,"h":144}
+},
+{
+	"filename": "butterfly_collection/button_habitat",
+	"frame": {"x":642,"y":813,"w":108,"h":108},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":10,"w":108,"h":108},
+	"sourceSize": {"w":128,"h":128}
+},
+{
+	"filename": "butterfly_collection/button_habitat2",
+	"frame": {"x":642,"y":437,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+{
+	"filename": "butterfly_collection/button_hatch",
+	"frame": {"x":559,"y":1524,"w":138,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":10,"w":138,"h":131},
+	"sourceSize": {"w":144,"h":144}
+},
+{
+	"filename": "butterfly_collection/button_hatch2",
+	"frame": {"x":413,"y":1524,"w":144,"h":144},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":144,"h":144},
+	"sourceSize": {"w":144,"h":144}
+},
+{
+	"filename": "butterfly_collection/cocoon_collect1",
+	"frame": {"x":603,"y":1657,"w":140,"h":246},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":246},
+	"sourceSize": {"w":142,"h":246}
+},
+{
+	"filename": "butterfly_collection/cocoon_collect2",
+	"frame": {"x":603,"y":1273,"w":142,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":142,"h":246},
+	"sourceSize": {"w":142,"h":246}
+},
+{
+	"filename": "butterfly_collection/cocoon_collect3",
+	"frame": {"x":642,"y":994,"w":142,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":142,"h":246},
+	"sourceSize": {"w":142,"h":246}
+},
+{
+	"filename": "butterfly_collection/cocoon_small1",
+	"frame": {"x":2001,"y":409,"w":36,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":36,"h":62},
+	"sourceSize": {"w":41,"h":64}
+},
+{
+	"filename": "butterfly_collection/cocoon_small1_2",
+	"frame": {"x":1970,"y":130,"w":41,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":68},
+	"sourceSize": {"w":41,"h":68}
+},
+{
+	"filename": "butterfly_collection/cocoon_small2",
+	"frame": {"x":2001,"y":473,"w":36,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":36,"h":62},
+	"sourceSize": {"w":41,"h":64}
+},
+{
+	"filename": "butterfly_collection/cocoon_small2_2",
+	"frame": {"x":1970,"y":200,"w":41,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":68},
+	"sourceSize": {"w":41,"h":68}
+},
+{
+	"filename": "butterfly_collection/cocoon_small3",
+	"frame": {"x":1963,"y":478,"w":35,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":35,"h":62},
+	"sourceSize": {"w":41,"h":64}
+},
+{
+	"filename": "butterfly_collection/cocoon_small3_2",
+	"frame": {"x":1970,"y":270,"w":41,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":68},
+	"sourceSize": {"w":41,"h":68}
+},
+{
+	"filename": "butterfly_collection/habitat01_node",
+	"frame": {"x":772,"y":1,"w":639,"h":329},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":639,"h":329},
+	"sourceSize": {"w":640,"h":330}
+},
+{
+	"filename": "butterfly_collection/habitat02_node",
+	"frame": {"x":1,"y":280,"w":639,"h":329},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":639,"h":329},
+	"sourceSize": {"w":640,"h":330}
+},
+{
+	"filename": "butterfly_collection/habitat03_node",
+	"frame": {"x":772,"y":332,"w":639,"h":329},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":639,"h":329},
+	"sourceSize": {"w":640,"h":330}
+},
+{
+	"filename": "butterfly_collection/habitat04_node",
+	"frame": {"x":1,"y":611,"w":639,"h":329},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":639,"h":329},
+	"sourceSize": {"w":640,"h":330}
+},
+{
+	"filename": "butterfly_collection/habitat05_node",
+	"frame": {"x":767,"y":663,"w":639,"h":329},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":639,"h":329},
+	"sourceSize": {"w":640,"h":330}
+},
+{
+	"filename": "butterfly_collection/habitat06_node",
+	"frame": {"x":1408,"y":804,"w":639,"h":329},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":639,"h":329},
+	"sourceSize": {"w":640,"h":330}
+},
+{
+	"filename": "butterfly_collection/habitat07_node",
+	"frame": {"x":1,"y":942,"w":639,"h":329},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":639,"h":329},
+	"sourceSize": {"w":640,"h":330}
+},
+{
+	"filename": "butterfly_collection/token_habitat",
+	"frame": {"x":1,"y":1674,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+{
+	"filename": "butterfly_collection_shadow/butterfly01_shadow",
+	"frame": {"x":642,"y":692,"w":110,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":30,"w":110,"h":119},
+	"sourceSize": {"w":200,"h":200}
+},
+{
+	"filename": "butterfly_nametag",
+	"frame": {"x":2013,"y":196,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "butterfly_collection.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:88789ac912f16a5ab23889148dae6234:3fc61cdb7943d8bd2710ec7de58bc2cd:c2821d403032d4d90daecdf52e1a45d2$"
+}
+}

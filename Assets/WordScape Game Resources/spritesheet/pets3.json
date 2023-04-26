@@ -1,0 +1,925 @@
+{"frames": [
+
+{
+	"filename": "pets/activities/pets_activity_drink",
+	"frame": {"x":132,"y":952,"w":128,"h":154},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":154},
+	"sourceSize": {"w":128,"h":154}
+},
+{
+	"filename": "pets/activities/pets_activity_drink2",
+	"frame": {"x":593,"y":863,"w":128,"h":154},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":154},
+	"sourceSize": {"w":128,"h":154}
+},
+{
+	"filename": "pets/activities/pets_activity_eat",
+	"frame": {"x":405,"y":1018,"w":128,"h":154},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":154},
+	"sourceSize": {"w":128,"h":154}
+},
+{
+	"filename": "pets/activities/pets_activity_eat2",
+	"frame": {"x":262,"y":1035,"w":128,"h":154},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":154},
+	"sourceSize": {"w":128,"h":154}
+},
+{
+	"filename": "pets/activities/pets_activity_offline",
+	"frame": {"x":132,"y":1108,"w":128,"h":154},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":154},
+	"sourceSize": {"w":128,"h":154}
+},
+{
+	"filename": "pets/activities/pets_activity_play",
+	"frame": {"x":1,"y":1110,"w":128,"h":154},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":154},
+	"sourceSize": {"w":128,"h":154}
+},
+{
+	"filename": "pets/activities/pets_activity_play2",
+	"frame": {"x":723,"y":881,"w":128,"h":154},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":154},
+	"sourceSize": {"w":128,"h":154}
+},
+{
+	"filename": "pets/activities/pets_activity_special",
+	"frame": {"x":535,"y":1019,"w":128,"h":154},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":154},
+	"sourceSize": {"w":128,"h":154}
+},
+{
+	"filename": "pets/arrow",
+	"frame": {"x":813,"y":412,"w":124,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":162},
+	"sourceSize": {"w":124,"h":162}
+},
+{
+	"filename": "pets/button_pets2",
+	"frame": {"x":392,"y":1174,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+{
+	"filename": "pets/eggs/egg_basic",
+	"frame": {"x":1618,"y":1187,"w":131,"h":156},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":131,"h":156},
+	"sourceSize": {"w":131,"h":156}
+},
+{
+	"filename": "pets/eggs/egg_basic_small_offline",
+	"frame": {"x":1958,"y":1,"w":84,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":100},
+	"sourceSize": {"w":84,"h":100}
+},
+{
+	"filename": "pets/eggs/egg_blue",
+	"frame": {"x":789,"y":723,"w":130,"h":156},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":156},
+	"sourceSize": {"w":130,"h":156}
+},
+{
+	"filename": "pets/eggs/egg_blue_small_offline",
+	"frame": {"x":1958,"y":103,"w":84,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":100},
+	"sourceSize": {"w":84,"h":100}
+},
+{
+	"filename": "pets/eggs/egg_green",
+	"frame": {"x":921,"y":849,"w":130,"h":156},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":156},
+	"sourceSize": {"w":130,"h":156}
+},
+{
+	"filename": "pets/eggs/egg_purple",
+	"frame": {"x":1053,"y":998,"w":130,"h":156},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":156},
+	"sourceSize": {"w":130,"h":156}
+},
+{
+	"filename": "pets/eggs/egg_red",
+	"frame": {"x":1185,"y":1021,"w":130,"h":156},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":156},
+	"sourceSize": {"w":130,"h":156}
+},
+{
+	"filename": "pets/pets/anteater_headshot",
+	"frame": {"x":1248,"y":544,"w":139,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":139,"h":162},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/bluejay_headshot",
+	"frame": {"x":1500,"y":923,"w":134,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":134,"h":161},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/deer_headshot",
+	"frame": {"x":1636,"y":1027,"w":132,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":14,"w":132,"h":158},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/duck_headshot_sleep",
+	"frame": {"x":1904,"y":1177,"w":131,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":15,"w":131,"h":157},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/finch_headshot",
+	"frame": {"x":1484,"y":1086,"w":132,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":20,"w":132,"h":152},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/fox_headshot",
+	"frame": {"x":1081,"y":669,"w":139,"h":156},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":16,"w":139,"h":156},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/harpy_headshot",
+	"frame": {"x":274,"y":879,"w":129,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":18,"w":129,"h":154},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/kingfisher_headshot",
+	"frame": {"x":1222,"y":708,"w":138,"h":148},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":24,"w":138,"h":148},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/leopard_card_small",
+	"frame": {"x":1938,"y":917,"w":94,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":128},
+	"sourceSize": {"w":94,"h":128}
+},
+{
+	"filename": "pets/pets/leopard_headshot",
+	"frame": {"x":1,"y":1266,"w":124,"h":146},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":26,"w":124,"h":146},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/otter_headshot",
+	"frame": {"x":1106,"y":510,"w":140,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":15,"w":140,"h":157},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/otter_headshot_sleep",
+	"frame": {"x":1897,"y":398,"w":140,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":140,"h":171},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/owl_headshot",
+	"frame": {"x":534,"y":698,"w":130,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":13,"w":130,"h":159},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/panther_headshot",
+	"frame": {"x":932,"y":698,"w":139,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":23,"w":139,"h":149},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/panther_headshot_sleep",
+	"frame": {"x":1755,"y":525,"w":140,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":140,"h":171},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/parrot_headshot_sleep",
+	"frame": {"x":1897,"y":571,"w":140,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":140,"h":171},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/penguin_card_small",
+	"frame": {"x":1938,"y":1047,"w":94,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":128},
+	"sourceSize": {"w":94,"h":128}
+},
+{
+	"filename": "pets/pets/penguin_headshot",
+	"frame": {"x":1212,"y":858,"w":135,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":11,"w":135,"h":161},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/penguin_headshot_sleep",
+	"frame": {"x":1312,"y":369,"w":140,"h":173},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":140,"h":173},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/puma_card_small",
+	"frame": {"x":522,"y":1175,"w":94,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":128},
+	"sourceSize": {"w":94,"h":128}
+},
+{
+	"filename": "pets/pets/puma_headshot_sleep",
+	"frame": {"x":1454,"y":522,"w":140,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":140,"h":171},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/quetzal_card_small",
+	"frame": {"x":392,"y":1304,"w":94,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":128},
+	"sourceSize": {"w":94,"h":128}
+},
+{
+	"filename": "pets/pets/quetzal_headshot",
+	"frame": {"x":1804,"y":917,"w":132,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":132,"h":171},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/snowy_owl_card_small",
+	"frame": {"x":260,"y":1320,"w":94,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":128},
+	"sourceSize": {"w":94,"h":128}
+},
+{
+	"filename": "pets/pets/snowy_owl_headshot",
+	"frame": {"x":1667,"y":871,"w":135,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":21,"w":135,"h":154},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/snowy_owl_headshot_sleep",
+	"frame": {"x":392,"y":537,"w":140,"h":174},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":140,"h":174},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/tiger_card_small",
+	"frame": {"x":127,"y":1423,"w":94,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":128},
+	"sourceSize": {"w":94,"h":128}
+},
+{
+	"filename": "pets/pets/tiger_headshot_sleep",
+	"frame": {"x":1596,"y":586,"w":140,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":140,"h":171},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/toucan_card_small",
+	"frame": {"x":1,"y":1540,"w":94,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":128},
+	"sourceSize": {"w":94,"h":128}
+},
+{
+	"filename": "pets/pets/toucan_headshot",
+	"frame": {"x":790,"y":576,"w":140,"h":145},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":27,"w":140,"h":145},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/toucan_headshot_sleep",
+	"frame": {"x":1738,"y":698,"w":140,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":140,"h":171},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/treefrog_card_small",
+	"frame": {"x":978,"y":1156,"w":94,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":128},
+	"sourceSize": {"w":94,"h":128}
+},
+{
+	"filename": "pets/pets/treefrog_headshot",
+	"frame": {"x":939,"y":542,"w":140,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":18,"w":140,"h":154},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/treefrog_headshot_sleep",
+	"frame": {"x":1880,"y":744,"w":140,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":140,"h":171},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/wolf_card_small",
+	"frame": {"x":1074,"y":1156,"w":94,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":128},
+	"sourceSize": {"w":94,"h":128}
+},
+{
+	"filename": "pets/pets/wolf_headshot",
+	"frame": {"x":1,"y":947,"w":129,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":129,"h":161},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/wolf_headshot_sleep",
+	"frame": {"x":1755,"y":351,"w":140,"h":172},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":140,"h":172},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/zebra_card_small",
+	"frame": {"x":1170,"y":1179,"w":94,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":128},
+	"sourceSize": {"w":94,"h":128}
+},
+{
+	"filename": "pets/pets/zebra_headshot",
+	"frame": {"x":1770,"y":1090,"w":132,"h":151},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":24,"w":132,"h":151},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets/zebra_headshot_sleep",
+	"frame": {"x":189,"y":611,"w":140,"h":174},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":140,"h":174},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets_bonus_brilliance",
+	"frame": {"x":1,"y":1414,"w":124,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":4,"w":124,"h":124},
+	"sourceSize": {"w":128,"h":128}
+},
+{
+	"filename": "pets/pets_bonus_cocoon",
+	"frame": {"x":1958,"y":205,"w":82,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":1,"w":82,"h":125},
+	"sourceSize": {"w":128,"h":128}
+},
+{
+	"filename": "pets/pets_bonus_timer",
+	"frame": {"x":262,"y":1191,"w":128,"h":127},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":128,"h":127},
+	"sourceSize": {"w":128,"h":128}
+},
+{
+	"filename": "pets/pets_card_egg",
+	"frame": {"x":1,"y":771,"w":140,"h":174},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":140,"h":174},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets_card_purple",
+	"frame": {"x":1496,"y":346,"w":140,"h":174},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":140,"h":174},
+	"sourceSize": {"w":144,"h":178}
+},
+{
+	"filename": "pets/pets_offline",
+	"frame": {"x":813,"y":358,"w":56,"h":52},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":6,"w":56,"h":52},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "pets/pets_rarity_uncommon",
+	"frame": {"x":1,"y":1,"w":256,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":256,"h":80},
+	"sourceSize": {"w":256,"h":84}
+},
+{
+	"filename": "pets/pets_stencil_bee2",
+	"frame": {"x":875,"y":247,"w":64,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":62},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "pets/pets_stencil_cocoon",
+	"frame": {"x":1958,"y":332,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "pets/pets_stencil_cocoon2",
+	"frame": {"x":875,"y":311,"w":63,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":62},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "pets/pets_stencil_heart",
+	"frame": {"x":875,"y":181,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "pets/pets_stencil_heart2",
+	"frame": {"x":534,"y":537,"w":63,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":62},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "pets/pets_stencil_star2",
+	"frame": {"x":534,"y":601,"w":63,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":62},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "pets/shards/shard_pet_axolotl",
+	"frame": {"x":625,"y":536,"w":163,"h":160},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":35,"w":163,"h":160},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_pet_bluejay",
+	"frame": {"x":143,"y":787,"w":129,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":56,"y":32,"w":129,"h":163},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_pet_elephant",
+	"frame": {"x":940,"y":365,"w":164,"h":175},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":20,"w":164,"h":175},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_pet_finch",
+	"frame": {"x":1389,"y":695,"w":138,"h":160},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":35,"w":138,"h":160},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_pet_harpy",
+	"frame": {"x":331,"y":713,"w":129,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":31,"w":129,"h":164},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_pet_kingfisher",
+	"frame": {"x":1142,"y":358,"w":168,"h":150},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":45,"w":168,"h":150},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_pet_leopard",
+	"frame": {"x":853,"y":1007,"w":123,"h":160},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":35,"w":123,"h":160},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_pet_lion",
+	"frame": {"x":1349,"y":1017,"w":133,"h":166},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":29,"w":133,"h":166},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_pet_mallard",
+	"frame": {"x":665,"y":1037,"w":114,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":32,"w":114,"h":163},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_pet_mandarin",
+	"frame": {"x":462,"y":859,"w":129,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":38,"w":129,"h":157},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_pet_ostrich",
+	"frame": {"x":1751,"y":1292,"w":130,"h":170},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":25,"w":130,"h":170},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_pet_panther",
+	"frame": {"x":131,"y":1264,"w":127,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":38,"w":127,"h":157},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_pet_parrot",
+	"frame": {"x":1362,"y":857,"w":136,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":37,"w":136,"h":158},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_pet_puma",
+	"frame": {"x":666,"y":698,"w":121,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":32,"w":121,"h":163},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_pet_tiger",
+	"frame": {"x":1883,"y":1336,"w":130,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":30,"w":130,"h":165},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_pet_wolf",
+	"frame": {"x":1073,"y":827,"w":137,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":26,"w":137,"h":169},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_pet_zebra",
+	"frame": {"x":1529,"y":759,"w":136,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":33,"w":136,"h":162},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_rarity_blue",
+	"frame": {"x":1638,"y":346,"w":115,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":167,"w":115,"h":118},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/shards/shard_rarity_green",
+	"frame": {"x":1638,"y":466,"w":115,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":167,"w":115,"h":118},
+	"sourceSize": {"w":225,"h":289}
+},
+{
+	"filename": "pets/tiles/tile_3star",
+	"frame": {"x":1751,"y":1243,"w":131,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":69,"y":267,"w":131,"h":47},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_pet_flamingo_sleep",
+	"frame": {"x":677,"y":181,"w":196,"h":175},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":87,"w":196,"h":175},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_pet_leopard_sleep",
+	"frame": {"x":1,"y":253,"w":227,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":111,"w":227,"h":149},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_pet_mallard_sleep",
+	"frame": {"x":1755,"y":177,"w":201,"h":172},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":90,"w":201,"h":172},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_pet_mandarin_sleep",
+	"frame": {"x":1552,"y":178,"w":201,"h":166},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":96,"w":201,"h":166},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_pet_owl_sleep",
+	"frame": {"x":1755,"y":1,"w":201,"h":174},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":48,"y":88,"w":201,"h":174},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_pet_panther",
+	"frame": {"x":204,"y":433,"w":186,"h":176},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":86,"w":186,"h":176},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_pet_panther_silhouette",
+	"frame": {"x":1,"y":593,"w":186,"h":176},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":86,"w":186,"h":176},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_pet_panther_sleep",
+	"frame": {"x":230,"y":142,"w":227,"h":155},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":105,"w":227,"h":155},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_pet_parrot_sleep",
+	"frame": {"x":943,"y":179,"w":197,"h":184},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":78,"w":197,"h":184},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_pet_penguin_sleep",
+	"frame": {"x":230,"y":299,"w":205,"h":132},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":130,"w":205,"h":132},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_pet_redfox",
+	"frame": {"x":943,"y":1,"w":201,"h":176},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":86,"w":201,"h":176},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_pet_redfox_silhouette",
+	"frame": {"x":1146,"y":1,"w":201,"h":176},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":86,"w":201,"h":176},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_pet_snowyowl_sleep",
+	"frame": {"x":1552,"y":1,"w":201,"h":175},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":48,"y":87,"w":201,"h":175},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_pet_toucan_sleep",
+	"frame": {"x":459,"y":171,"w":216,"h":181},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":81,"w":216,"h":181},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_pet_treefrog_silhouette",
+	"frame": {"x":1,"y":83,"w":227,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":94,"w":227,"h":168},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_pet_zebra_sleep",
+	"frame": {"x":259,"y":1,"w":228,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":104,"w":228,"h":139},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_tint_pet_harpy",
+	"frame": {"x":1326,"y":179,"w":168,"h":188},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":61,"y":74,"w":168,"h":188},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_tint_pet_leopard",
+	"frame": {"x":437,"y":354,"w":186,"h":181},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":81,"w":186,"h":181},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_tint_pet_lion",
+	"frame": {"x":1,"y":404,"w":201,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":48,"y":75,"w":201,"h":187},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_tint_pet_otter",
+	"frame": {"x":718,"y":1,"w":223,"h":178},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":84,"w":223,"h":178},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_tint_pet_panther",
+	"frame": {"x":625,"y":358,"w":186,"h":176},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":86,"w":186,"h":176},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_tint_pet_redfox",
+	"frame": {"x":1349,"y":1,"w":201,"h":176},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":86,"w":201,"h":176},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_tint_pet_treefrog",
+	"frame": {"x":489,"y":1,"w":227,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":94,"w":227,"h":168},
+	"sourceSize": {"w":270,"h":345}
+},
+{
+	"filename": "pets/tiles/tile_tint_pet_zebra",
+	"frame": {"x":1142,"y":179,"w":182,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":67,"y":85,"w":182,"h":177},
+	"sourceSize": {"w":270,"h":345}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "pets3.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"related_multi_packs": [ "pets1.json", "pets2.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:e49689b6eaba7181fca1cfa8b1322851:a0f53f509188770daf25e9cb5cde534f:019c418077ad92b24a55919935377352$"
+}
+}
