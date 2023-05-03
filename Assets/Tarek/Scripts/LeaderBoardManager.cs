@@ -5,6 +5,9 @@ using PlayFab;
 using PlayFab.ClientModels;
 using System;
 using UnityEditor.PackageManager;
+using UnityEngine.UI;
+using Unity.VisualScripting;
+using UnityEditorInternal.Profiling.Memory.Experimental;
 
 public class LeaderBoardManager : MonoBehaviour
 {
@@ -16,7 +19,14 @@ public class LeaderBoardManager : MonoBehaviour
         get => PlayerPrefs.GetString(PlayerNameKeyStr, "Player");
         set => PlayerPrefs.SetString(PlayerNameKeyStr, value);
     }
+    [SerializeField] Button showLeader_Button;
+    [SerializeField] GameObject parent;
+    [SerializeField] LeaderboardItem leaderboardItem;
+    List<LeaderboardItem> leaderboardItemsList = new List<LeaderboardItem>();
     Coroutine addingNewPlayers;
+    Coroutine LB_routine;
+    bool isInit;
+    GetLeaderboardResult leadboardData;
     [ContextMenu("Add random players")]
     void AddRandomPlayers()
     {
@@ -78,7 +88,25 @@ public class LeaderBoardManager : MonoBehaviour
 
     private void Start()
     {
-        Login((res1) => UpdatePlayerName(PlayerName , (res2) => SendLbScore(50, (res3)=>   GetLeaderBoard())));
+        parent.SetActive(false);
+        showLeader_Button.onClick.AddListener(() =>
+        {
+            ShowLeaderboard();
+        });
+        showLeader_Button.interactable = false;
+        RefreshLeaderboardData(() => showLeader_Button.interactable = true);
+    }
+
+    private void RefreshLeaderboardData(Action onFinish = null)
+    {
+        isInit = false;
+        leadboardData = null;
+        Login((res1) => UpdatePlayerName(PlayerName, (res2) => SendLbScore(50, (res3) => GetLeaderBoard((res3) =>
+        {
+            leadboardData = res3;
+            isInit = true;
+            onFinish?.Invoke();
+        }))));
     }
 
     private void Login(Action<LoginResult> onComplete = null)
@@ -150,6 +178,64 @@ public class LeaderBoardManager : MonoBehaviour
     private void OnUpdatePlayerStatistic(UpdatePlayerStatisticsResult obj)
     {
         Debug.Log("****** PlayFab UpdatePlayerStatistic " + JsonUtility.ToJson(obj));
+    }
+    void ShowLeaderboard()
+    {
+        if (LB_routine!=null)
+        {
+            StopCoroutine(LB_routine);
+        }
+        LB_routine = StartCoroutine(ShowingLB());
+        IEnumerator ShowingLB()
+        {
+            foreach (var item in gameObject.GetComponentsInChildren<LeaderboardItem>(true))
+            {
+                if (item != leaderboardItem)
+                {
+                    item.gameObject.SetActive(false);
+                    Destroy(item.gameObject);
+                }
+            }
+            leaderboardItemsList.Clear();
+            RefreshLeaderboardData();
+            showLeader_Button.gameObject.SetActive(false);
+            if (leaderboardItemsList.Count <=0)
+            {
+                for (int i = 0; i < NumberOfRows; i++)
+                {
+                    var newItem = Instantiate(leaderboardItem, leaderboardItem.transform.parent, true);
+                    newItem.transform.localScale = Vector3.one;
+                    leaderboardItemsList.Add(newItem);
+                }
+            }
+            yield return new WaitUntil(() => isInit = true && leadboardData !=null );
+
+            for (int i = 0; i < leaderboardItemsList.Count; i++)
+            {
+                LeaderboardItem newItem = leaderboardItemsList[i];
+                PlayerLeaderboardEntry playerLeaderboardEntry = leadboardData.Leaderboard[i];
+                newItem.Set(playerLeaderboardEntry.Position+1, playerLeaderboardEntry.DisplayName, playerLeaderboardEntry.StatValue);
+            }
+
+            parent.SetActive(true);
+
+        }
+    }
+    public void CloseLeaderboard()
+    {
+        if (LB_routine != null)
+        {
+            StopCoroutine(LB_routine);
+        }
+        LB_routine = StartCoroutine(HidingLB());
+        IEnumerator HidingLB()
+        {
+            yield return null;
+            parent.SetActive(false);
+            showLeader_Button.gameObject.SetActive(true);
+            showLeader_Button.interactable = true;
+        }
+
     }
 }
 
