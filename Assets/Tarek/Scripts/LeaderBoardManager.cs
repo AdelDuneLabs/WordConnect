@@ -8,6 +8,7 @@ using UnityEditor.PackageManager;
 using UnityEngine.UI;
 using Unity.VisualScripting;
 using UnityEditorInternal.Profiling.Memory.Experimental;
+using TMPro;
 
 public class LeaderBoardManager : MonoBehaviour
 {
@@ -16,12 +17,14 @@ public class LeaderBoardManager : MonoBehaviour
     const string PlayerNameKeyStr = "PLAYERNAME_STR";
     string PlayerName
     {
-        get => PlayerPrefs.GetString(PlayerNameKeyStr, "Player");
+        get => PlayerPrefs.GetString(PlayerNameKeyStr, "");
         set => PlayerPrefs.SetString(PlayerNameKeyStr, value);
     }
     [SerializeField] Button showLeader_Button;
-    [SerializeField] GameObject parent;
+    [SerializeField] GameObject parent, changeName_UI;
     [SerializeField] LeaderboardItem leaderboardItem;
+    [SerializeField] Button changeName_Button;
+    [SerializeField] TMP_InputField playerName_Input;
     List<LeaderboardItem> leaderboardItemsList = new List<LeaderboardItem>();
     Coroutine addingNewPlayers;
     Coroutine LB_routine;
@@ -88,6 +91,7 @@ public class LeaderBoardManager : MonoBehaviour
 
     private void Start()
     {
+        changeName_UI.SetActive(false);
         parent.SetActive(false);
         showLeader_Button.onClick.AddListener(() =>
         {
@@ -97,11 +101,41 @@ public class LeaderBoardManager : MonoBehaviour
         RefreshLeaderboardData(() => showLeader_Button.interactable = true);
         leaderboardItem.gameObject.SetActive(false);
     }
-
+    
     private void RefreshLeaderboardData(Action onFinish = null)
     {
         isInit = false;
         leadboardData = null;
+        if (PlayerName == "")
+        {
+            ChangeName(() => Siginin(onFinish));
+        }
+        else
+        {
+        
+        Siginin(onFinish);
+        }
+    }
+
+    private void ChangeName(Action onFinish)
+    {
+        playerName_Input.text = "";
+        changeName_Button.interactable = false;
+        changeName_UI.SetActive(true);
+        changeName_Button.onClick.AddListener(() => {
+            onFinish?.Invoke();
+            PlayerName = playerName_Input.text;
+            changeName_Button.onClick.RemoveAllListeners();
+        });
+        onFinish += () => changeName_UI.SetActive(false);
+
+    }
+    public void OnChangeName(string name)
+    {
+        changeName_Button.interactable = name != "";
+    }
+    private void Siginin(Action onFinish)
+    {
         Login((res1) => UpdatePlayerName(PlayerName, (res2) => SendLbScore(50, (res3) => GetLeaderBoard((res3) =>
         {
             leadboardData = res3;
