@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class LeaderboardItem : MonoBehaviour
 {
-    [SerializeField] TMP_Text rank_Text, name_Text, score_Text;
+    [SerializeField] Text rank_Text, name_Text, score_Text;
     [SerializeField] Color firstPlace_Color, otherPlaces_Color;
     [SerializeField] Image first_Image, scnd_Image, thrd_Image;
     [SerializeField] Image BG;
@@ -38,5 +37,6 @@ public class LeaderboardItem : MonoBehaviour
         rank_Text.text = rankText;
         name_Text.text = name;
         score_Text.text = score.ToString();
+        gameObject.SetActive(true);
     }
 }

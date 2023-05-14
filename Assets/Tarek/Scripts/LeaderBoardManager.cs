@@ -95,6 +95,7 @@ public class LeaderBoardManager : MonoBehaviour
         });
         showLeader_Button.interactable = false;
         RefreshLeaderboardData(() => showLeader_Button.interactable = true);
+        leaderboardItem.gameObject.SetActive(false);
     }
 
     private void RefreshLeaderboardData(Action onFinish = null)
