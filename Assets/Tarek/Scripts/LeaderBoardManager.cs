@@ -4,10 +4,10 @@ using UnityEngine;
 using PlayFab;
 using PlayFab.ClientModels;
 using System;
-using UnityEditor.PackageManager;
+//using UnityEditor.PackageManager;
 using UnityEngine.UI;
 using Unity.VisualScripting;
-using UnityEditorInternal.Profiling.Memory.Experimental;
+//using UnityEditorInternal.Profiling.Memory.Experimental;
 using TMPro;
 
 public class LeaderBoardManager : MonoBehaviour

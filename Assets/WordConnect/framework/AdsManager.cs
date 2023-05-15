@@ -10,7 +10,7 @@ using UnityEngine.Rendering;
 public class AdsManager : MonoBehaviour
 {
 
-   
+   // ca-app-pub-9657355948721151~1949265434
 
     public static AdsManager instance { get; private set; }
 
