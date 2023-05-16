@@ -1102,7 +1102,7 @@ namespace WordConnect
 
 				// Award the game points
 				GamePoints += gamePointsAwarded;
-
+				LeaderBoardManager.Instance.UpdateScore(GamePoints);
 				// Check if the category is now complete
 				if (IsCategoryCompleted(level.categoryInfo))
 				{
@@ -1452,9 +1452,14 @@ namespace WordConnect
 			NumLevelsTillAdShows		= json["num_levels_till_ad_shown"].AsInt;
 			Coins						= json["coins"].AsInt;
 			LastCompletedLevelNumber	= json["last_completed_level_number"].AsInt;
+			if (LeaderBoardManager.Instance != null)
+			{
+				LeaderBoardManager.Instance.UpdateScore(GamePoints);
+			}
+			
 
-			// Check if the save file verion has changed
-			bool saveVersionChanged = (SaveVersion != json["version"].AsInt);
+            // Check if the save file verion has changed
+            bool saveVersionChanged = (SaveVersion != json["version"].AsInt);
 			HashSet<string> completedLevelIds = new HashSet<string>(); // Needed if updating from version 1 to 2
 
 			// Load the level save data

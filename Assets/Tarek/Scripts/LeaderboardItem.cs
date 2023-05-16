@@ -12,6 +12,7 @@ public class LeaderboardItem : MonoBehaviour
     [SerializeField] Image BG;
     public void Set(int rank, string name, int score)
     {
+        Debug.Log($"rank {rank}, name {name}, score {score}");
         BG.color = rank == 1 ? firstPlace_Color : otherPlaces_Color;
         first_Image.gameObject.SetActive(false);
         scnd_Image.gameObject.SetActive(false);

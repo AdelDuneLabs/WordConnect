@@ -9,9 +9,11 @@ using UnityEngine.UI;
 using Unity.VisualScripting;
 //using UnityEditorInternal.Profiling.Memory.Experimental;
 using TMPro;
+using WordConnect;
 
 public class LeaderBoardManager : MonoBehaviour
 {
+    public static LeaderBoardManager Instance;
     const string StatisticNameStr = "LB";
     const int NumberOfRows = 10;
     const string PlayerNameKeyStr = "PLAYERNAME_STR";
@@ -101,7 +103,10 @@ public class LeaderBoardManager : MonoBehaviour
         RefreshLeaderboardData(() => showLeader_Button.interactable = true);
         leaderboardItem.gameObject.SetActive(false);
     }
-    
+    private void Awake()
+    {
+        Instance = this;
+    }
     private void RefreshLeaderboardData(Action onFinish = null)
     {
         isInit = false;
@@ -136,14 +141,17 @@ public class LeaderBoardManager : MonoBehaviour
     }
     private void Siginin(Action onFinish)
     {
-        Login((res1) => UpdatePlayerName(PlayerName, (res2) => SendLbScore(50, (res3) => GetLeaderBoard((res3) =>
+        Login((res1) => UpdatePlayerName(PlayerName, (res2) => SendLbScore(GameController.Instance.GamePoints, (res3) => GetLeaderBoard((res3) =>
         {
             leadboardData = res3;
             isInit = true;
             onFinish?.Invoke();
         }))));
     }
-
+    public void UpdateScore(int newScore)
+    {
+        SendLbScore(GameController.Instance.GamePoints);
+    }
     private void Login(Action<LoginResult> onComplete = null)
     {
         var req = new LoginWithCustomIDRequest
