@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class LeaderboardItem : MonoBehaviour
 {
-    [SerializeField] Text rank_Text, name_Text, score_Text;
+    [SerializeField] Text rank_Text,  score_Text;
+    [SerializeField] RTLTMPro.RTLTextMeshPro name_Text;
     [SerializeField] Color firstPlace_Color, otherPlaces_Color;
     [SerializeField] Image first_Image, scnd_Image, thrd_Image;
     [SerializeField] Image BG;
