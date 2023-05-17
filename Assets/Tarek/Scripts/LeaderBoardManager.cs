@@ -15,7 +15,7 @@ public class LeaderBoardManager : MonoBehaviour
 {
     public static LeaderBoardManager Instance;
     const string StatisticNameStr = "LB";
-    const int NumberOfRows = 10;
+    [SerializeField] int NumberOfRows = 20;
     const string PlayerNameKeyStr = "PLAYERNAME_STR";
     string PlayerName
     {
@@ -30,6 +30,7 @@ public class LeaderBoardManager : MonoBehaviour
     List<LeaderboardItem> leaderboardItemsList = new List<LeaderboardItem>();
     Coroutine addingNewPlayers;
     Coroutine LB_routine;
+    int numberOfElements = 0;
     bool isInit;
     GetLeaderboardResult leadboardData;
     [ContextMenu("Add random players")]
@@ -215,6 +216,7 @@ public class LeaderBoardManager : MonoBehaviour
 
     private void OnGetLeaderBoard(GetLeaderboardResult obj)
     {
+        numberOfElements = obj.Leaderboard.Count;
         Debug.Log("****** PlayFab GetLeaderBoard " + JsonUtility.ToJson(obj));
     }
 
@@ -244,7 +246,7 @@ public class LeaderBoardManager : MonoBehaviour
             showLeader_Button.gameObject.SetActive(false);
             if (leaderboardItemsList.Count <=0)
             {
-                for (int i = 0; i < NumberOfRows; i++)
+                for (int i = 0; i < Math.Min(NumberOfRows, numberOfElements); i++)
                 {
                     var newItem = Instantiate(leaderboardItem, leaderboardItem.transform.parent, true);
                     newItem.transform.localScale = Vector3.one;
