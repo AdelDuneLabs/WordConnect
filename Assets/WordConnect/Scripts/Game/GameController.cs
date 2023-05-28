@@ -52,15 +52,17 @@ namespace WordConnect
 		private Dictionary<string, LevelSaveData>	levelSaveDatas;
 		private LoadExtraWordsWorker				loadExtraWordsWorker;
 		private HashSet<string>						allWords;
+		[SerializeField] private GameObject timerPanel;
+        [SerializeField] private Image timeSlider;
 
-		#endregion
+        #endregion
 
-		#region Properties
+        #region Properties
 
-		/// <summary>
-		/// The old save file location, asset version 1.4 and up now use SaveManager
-		/// </summary>
-		public string SaveFilePath	{ get { return Application.persistentDataPath + string.Format("/{0}.json", saveFileName); } }
+        /// <summary>
+        /// The old save file location, asset version 1.4 and up now use SaveManager
+        /// </summary>
+        public string SaveFilePath	{ get { return Application.persistentDataPath + string.Format("/{0}.json", saveFileName); } }
 
 		public string			SaveId						{ get { return saveFileName; } }
 		public List<PackInfo>	PackInfos					{ get { return packInfos; } }
@@ -133,7 +135,25 @@ namespace WordConnect
 
 		private void Update()
 		{
-			if (loadExtraWordsWorker != null && loadExtraWordsWorker.Stopped)
+
+			if (isStartLevel)
+			{
+                time+= Time.deltaTime;
+
+				timeSlider.fillAmount = time/60;
+
+				
+
+
+            }
+
+			
+
+			isMustReward = time < 60;
+
+
+
+            if (loadExtraWordsWorker != null && loadExtraWordsWorker.Stopped)
 			{
 				allWords = loadExtraWordsWorker.allWords;
 				loadExtraWordsWorker = null;
@@ -160,10 +180,17 @@ namespace WordConnect
 		/// <summary>
 		/// Creates a new current active level and starts it
 		/// </summary>
+		/// 
+
+		private float time = 0;
+
+		private bool isStartLevel = false;
+		private bool isMustReward=false;
 		public void StartLevel(int gameLevelNumber)
 		{
 
-		
+            isStartLevel=true;
+			time = 0;
 
 
 
@@ -1071,7 +1098,10 @@ namespace WordConnect
 		{
 			Debug.LogFormat("[GameController] Level {0} complete", level.levelData.GameLevelNumber);
 
-			bool	wasLevelCompleted	= level.levelData.GameLevelNumber <= LastCompletedLevelNumber;
+			isStartLevel = false;
+
+
+            bool	wasLevelCompleted	= level.levelData.GameLevelNumber <= LastCompletedLevelNumber;
 			int		numExtraWordsFound	= level.levelSaveData.extraWords;
 
 			// Set the last completed level number, make sure it's the max if the player replayed a level
@@ -1093,6 +1123,8 @@ namespace WordConnect
 			int extraWordsCoinsAwarded		= 0;
 			int extraWordsCoinsAmountFrom	= 0;
 			int extraWordsCoinsAmountTo		= 0;
+
+
 
 			// Check if the level has not already been completed
 			if (!wasLevelCompleted)
@@ -1132,7 +1164,24 @@ namespace WordConnect
 					// Get the amount of coins after the coins have been given
 					extraWordsCoinsAmountTo = Coins;
 				}
-			}
+
+
+                if (isMustReward)
+                {
+					// Get the number of coins to award and the current amount of coins
+					categoryCoinsAwarded = 10;
+                    categoryCoinsAmountFrom = Coins;
+
+                    // Give the coins right away but don't update the text. This makes it so it the app exits the player has been given the coins
+                    // but we don't want to update teh text until the animation happens on the complete popup
+                    GiveCoins(categoryCoinsAwarded);
+
+                    // Get the amount of coins after the coins have been given
+                    categoryCoinsAmountTo = Coins;
+
+
+                }
+            }
 
 			bool isLastLevel = IsLastLevel(level.levelData);
 
@@ -1149,7 +1198,7 @@ namespace WordConnect
 				extraWordsCoinsAwarded,
 				extraWordsCoinsAmountFrom,
 				extraWordsCoinsAmountTo,
-				isLastLevel};
+				isLastLevel,isMustReward};
 
 			StartCoroutine(ShowLevelCompletePopup(popupInData));
 		}

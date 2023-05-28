@@ -20,12 +20,13 @@ namespace WordConnect
 		[SerializeField] private Slider			categoryProgressSlider	= null;
 		[SerializeField] private Image			categoryProgressBar		= null;
 		[SerializeField] private RectTransform	categoryCoinPrizeIcon	= null;
+        [SerializeField] private GameObject      goldTime = null;
 
-		#endregion
+        #endregion
 
-		#region Member Variables
+        #region Member Variables
 
-		public const string PlayNextAction	= "play_next";
+        public const string PlayNextAction	= "play_next";
 		public const string BackAction		= "back";
 
 		private IEnumerator animationEnumerator;
@@ -49,8 +50,9 @@ namespace WordConnect
 			int			extraWordsCoinsAmountFrom	= (int)inData[8];
 			int			extraWordsCoinsAmountTo		= (int)inData[9];
 			bool		isLastLevel					= (bool)inData[10];
+			bool        isGoldTime                  = (bool)inData[10];
 
-			backgroundImage.sprite		= level.packInfo.background;
+            backgroundImage.sprite		= level.packInfo.background;
 			packNameText.gameObject.GetComponent<ArabicText>().Text			= level.packInfo.packName;
 			//levelText.text				= string.Format("LEVEL {0} COMPLETED", level.levelData.GameLevelNumber);
 			levelText.text =   level.levelData.GameLevelNumber.ToString();
@@ -82,7 +84,10 @@ namespace WordConnect
 				//extraWordsText.text				= string.Format("+ {0} Extra Words", extraWordsCoinsAwarded);
 				extraWordsText.gameObject.GetComponent<ArabicText>().Text = "+ كلمات إضافية " + (extraWordsCoinsAwarded);
 
-				float categoryProgressFromValue	= Mathf.Lerp(0.095f, 1f, (float)(categoryNumberComplete - 1) / (float)totalLevelsInCategory);
+                goldTime.SetActive(isGoldTime);
+
+
+                float categoryProgressFromValue	= Mathf.Lerp(0.095f, 1f, (float)(categoryNumberComplete - 1) / (float)totalLevelsInCategory);
 				float categoryProgressToValue	= Mathf.Lerp(0.095f, 1f, (float)(categoryNumberComplete) / (float)totalLevelsInCategory);
 
 				categoryProgressSlider.value	= categoryProgressFromValue;
