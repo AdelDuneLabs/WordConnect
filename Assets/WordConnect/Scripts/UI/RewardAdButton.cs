@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using BBG;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -52,12 +53,12 @@ namespace WordConnect
 
 		private void OnClick()
 		{
-			if (testMode)
-			{
-				OnRewardAdGranted();
+			//if (testMode)
+			//{
+			//	OnRewardAdGranted();
 
-				return;
-			}
+			//	return;
+			//}
 
 			/*#if BBG_MT_ADS
 			if (MobileAdsManager.Instance.RewardAdState != AdNetworkHandler.AdState.Loaded)
@@ -71,7 +72,13 @@ namespace WordConnect
 
 			MobileAdsManager.Instance.ShowRewardAd(OnRewardAdClosed, OnRewardAdGranted);
 			#endif*/
-		}
+
+			//	OnRewardAdGranted();
+
+			AdsManager.instance.ShowRewardedAd();
+
+        
+            }
 
 		private void OnRewardAdLoaded()
 		{
@@ -83,20 +90,7 @@ namespace WordConnect
 			gameObject.SetActive(false);
 		}
 
-		private void OnRewardAdGranted()
-		{
-			// Get the current amount of coins
-			int animateFromCoins = GameController.Instance.Coins;
-
-			// Give the amount of coins
-			GameController.Instance.GiveCoins(coinsToReward, false);
-
-			// Get the amount of coins now after giving them
-			int animateToCoins = GameController.Instance.Coins;
-
-			// Show the popup to the user so they know they got the coins
-		//	PopupManager.Instance.Show("reward_ad_granted", new object[] { coinsToReward, animateFromCoins, animateToCoins } );
-		}
+		
 
 		private void OnAdsRemoved()
 		{

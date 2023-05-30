@@ -1,3 +1,4 @@
+using BBG;
 using GoogleMobileAds.Api;
 using System;
 using System.Collections;
@@ -6,6 +7,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Rendering;
+using WordConnect;
 
 public class AdsManager : MonoBehaviour
 {
@@ -30,16 +32,28 @@ public class AdsManager : MonoBehaviour
   private string _adUnitIdBanner = "ca-app-pub-3940256099942544/6300978111";
 #elif UNITY_IPHONE
     private string _adUnitIdBanner = "ca-app-pub-9657355948721151/8155581135";
-#else
-  private string _adUnitIdBanner = "unused";
 #endif
 
+#if UNITY_ANDROID
+  private string _adUnitIdReward = "ca-app-pub-3940256099942544/5224354917";
+#elif UNITY_IPHONE
+    private string _adUnitIdReward = "ca-app-pub-3940256099942544/1712485313";
+#endif
+
+    private RewardedAd rewardedAd;
     BannerView _bannerView;
 
     [SerializeField] private bool isTest = true;
- 
+
 
     private InterstitialAd interstitialAd;
+
+    /// <summary>
+    /// Loads the rewarded ad.
+    /// </summary>
+   
+
+  
 
 
 
@@ -63,6 +77,40 @@ public class AdsManager : MonoBehaviour
 
         LoadInterstitialAd();
         CreateBannerView();
+    }
+
+    public void LoadRewardedAd()
+    {
+        // Clean up the old ad before loading a new one.
+        if (rewardedAd != null)
+        {
+            rewardedAd.Destroy();
+            rewardedAd = null;
+        }
+
+        Debug.Log("Loading the rewarded ad.");
+
+        // create our request used to load the ad.
+        var adRequest = new AdRequest();
+        
+
+        // send the request to load the ad.
+        RewardedAd.Load(_adUnitIdReward, adRequest,
+            (RewardedAd ad, LoadAdError error) =>
+            {
+                // if error is not null, the load request failed.
+                if (error != null || ad == null)
+                {
+                    Debug.LogError("Rewarded ad failed to load an ad " +
+                                   "with error : " + error);
+                    return;
+                }
+
+                Debug.Log("Rewarded ad loaded with response : "
+                          + ad.GetResponseInfo());
+
+                rewardedAd = ad;
+            });
     }
 
     public void LoadInterstitialAd()
@@ -112,6 +160,42 @@ public class AdsManager : MonoBehaviour
         {
             Debug.LogError("Interstitial ad is not ready yet.");
         }
+    }
+
+    public bool isReadyReward => rewardedAd.CanShowAd();
+
+
+    public void ShowRewardedAd()
+    {
+        const string rewardMsg =
+            "Rewarded ad rewarded the user. Type: {0}, amount: {1}.";
+
+        if (rewardedAd != null && rewardedAd.CanShowAd())
+        {
+            rewardedAd.Show((Reward reward) =>
+            {
+                OnRewardAdGranted();
+                Debug.Log(String.Format(rewardMsg, reward.Type, reward.Amount));
+            });
+        }
+    }
+
+
+    private void OnRewardAdGranted()
+    {
+
+        var coinsToReward = 10;
+        // Get the current amount of coins
+        int animateFromCoins = GameController.Instance.Coins;
+
+        // Give the amount of coins
+        GameController.Instance.GiveCoins(coinsToReward, false);
+
+        // Get the amount of coins now after giving them
+        int animateToCoins = GameController.Instance.Coins;
+
+        // Show the popup to the user so they know they got the coins
+        PopupManager.Instance.Show("reward_ad_granted", new object[] { coinsToReward, animateFromCoins, animateToCoins });
     }
 
 

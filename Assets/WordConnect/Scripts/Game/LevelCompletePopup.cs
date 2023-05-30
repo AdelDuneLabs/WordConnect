@@ -50,7 +50,7 @@ namespace WordConnect
 			int			extraWordsCoinsAmountFrom	= (int)inData[8];
 			int			extraWordsCoinsAmountTo		= (int)inData[9];
 			bool		isLastLevel					= (bool)inData[10];
-			bool        isGoldTime                  = (bool)inData[10];
+			bool        isGoldTime                  = (bool)inData[11];
 
             backgroundImage.sprite		= level.packInfo.background;
 			packNameText.gameObject.GetComponent<ArabicText>().Text			= level.packInfo.packName;
@@ -84,7 +84,7 @@ namespace WordConnect
 				//extraWordsText.text				= string.Format("+ {0} Extra Words", extraWordsCoinsAwarded);
 				extraWordsText.gameObject.GetComponent<ArabicText>().Text = "+ كلمات إضافية " + (extraWordsCoinsAwarded);
 
-                goldTime.SetActive(isGoldTime);
+                goldTime.SetActive(isGoldTime&&GameController.Instance.isActiveGoldTimer);
 
 
                 float categoryProgressFromValue	= Mathf.Lerp(0.095f, 1f, (float)(categoryNumberComplete - 1) / (float)totalLevelsInCategory);
